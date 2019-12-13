@@ -318,7 +318,7 @@ var KICKASSVERSION='2.0';window.IS_CLOUDFLARE_GAME = true;
     };
     var GameGlobals = {
         FPS: 60, useAnimationFrame: false, boids: {flockRadius: 400, size: 100}, path: function () {
-            return "https://raw.githubusercontent.com/mkreusch/plentymarkets-friday-13th/master/" + Array.prototype.slice.call(arguments).join("");
+            return "https://mkreusch.github.io/plentymarkets-friday-13th/" + Array.prototype.slice.call(arguments).join("");
         }, hasCanvas: (typeof document.createElement('canvas').getContext !== 'undefined'), bulletColor: '#008ebd'
     };
     window.GameGlobals = GameGlobals;
